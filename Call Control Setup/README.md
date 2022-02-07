@@ -4,6 +4,7 @@
 ## _Make an Outbound Call from Call Control to Your Cellphone_
 
 ![Telnyx](Images/logo-dark.png)
+</div>
 
 Tutorial demonstrating Telnyx Call Control API
 -   Setting up an outbound voice profile
@@ -13,7 +14,6 @@ Tutorial demonstrating Telnyx Call Control API
 -   Add phone number to the call control application
 -   Ring my mobile number from the newly purchased number & call control
 -   Investigate the webhooks
-</div>
 
 ## Requirements 
 - A [Telnyx account](https://telnyx.com/sign-up) to use their Call Control web API. If you are new to Telnyx, create an [account](https://telnyx.com/sign-up) now and get 10$ credit to explore Telnyx platform.
@@ -70,7 +70,7 @@ This opens a New Project window
 }
 ```
 
-![Dial Request Call](Images/dialRequestDetails.PNG)
+![Dial Request Call](Images/dialRequestDetails.png)
 
 Replace the to_number, from_number and connection_id with the values we acquired before. 
 
