@@ -93,9 +93,4 @@ If you refresh the hookbin URL after each event occurence such as call Dial, cal
 
 If you are more of a visual person, please watch the demonstration [here](https://www.loom.com/share/02978440734d4f4192c98eaf081a0a01)
 
-
-[![Watch the video](https://github.com/vishalpallerla/vishal-telnyx/tree/main/Call%20Control%20Setup/Images/callControlPreview.png)]
-(https://www.loom.com/share/02978440734d4f4192c98eaf081a0a01)
-
-
 You are now +1 step forward in your journey to becoming a Telnyx Champion, Wohooo !!!! 
