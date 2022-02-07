@@ -1,0 +1,114 @@
+{
+  "main": {
+    "id": "8d249a461e075fb5",
+    "type": "split",
+    "children": [
+      {
+        "id": "35e6f656c8744ff1",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Call Control Setup/README.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "69fa7e46286b99b4",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Call Control Setup/README.md",
+            "mode": "preview",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8063ac44b0d16f3a",
+    "type": "split",
+    "children": [
+      {
+        "id": "c577538e9679d338",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d554ae132205e362",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "fdad477cba114705",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "https://www.dropbox.com/s/0ofbrbzc0j2n1pr/callControlPreview.png",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f54d76b3cb0cdf45",
+    "type": "split",
+    "children": [
+      {
+        "id": "52487b2fb3bac3b4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a88904f64bf5ffa8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Call Control Setup/README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "35e6f656c8744ff1",
+  "lastOpenFiles": [
+    "Call Control Setup/README.md",
+    "telnyxTest/README.md",
+    "Images/postmanAddRequest.md",
+    "Messaging-IoT-Device-State-with-AWS-Python-and-Telnyx/README.md",
+    "Call Control Setup/Images/logo-dark.png",
+    "Images/logo-dark.png.md",
+    "README.md",
+    "Call Control Setup/README.md.md"
+  ]
+}
