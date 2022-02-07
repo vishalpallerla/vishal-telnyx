@@ -69,7 +69,7 @@ This opens a New Project window
 
 }
 ```
-``
+
 ![Dial Request Call](Images/dialRequestDetails.PNG)
 
 Replace the to_number, from_number and connection_id with the values we acquired before. 
