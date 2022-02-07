@@ -43,6 +43,7 @@ As we are looking to place an outbound call, let's head to the relevant API docu
 
 Based on the documentation, we need three things for making an outbound call as highlighted below:
 ![Outbound Dial Parameters](Images/callControlDial.png)
+
 So, let's grab those details:
 1. *connection_id* : available under app info beside app name in [Mission Control Portal -> Call Control](https://portal.telnyx.com/#/app/call-control/applications) 
 2. *to number* : Any number that you have access to with inbound capabilities (_You can use your personal phone number_)
@@ -54,6 +55,7 @@ In Postman, Add a new request
 Collection Name -> Add Request
 ```
 ![Postman](Images/postmanAddRequest.png)
+
 This opens a New Project window
 - provide desired name, type of request(POST) with the [API URL] (https://api.telnyx.com/v2/calls) and add the following JSON data:
 ```json
