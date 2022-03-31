@@ -11,7 +11,7 @@ The code lets developer use Telnyx Verify API for implementing 2FA
 - [Setting up a verify profile](#create-a-verify-profile)
 - [Updating the verify profile with custom message template](#updating-the-verify-profile-with-custom-sms-template)
 - [Initiate verification](#initiate-verification)
--   Complete verification
+- [Complete verification](#complete-verification)
 
 ### Config File
 One method for securing our confidential data like `API_KEY` and other values is to create variables for them and store them locally, for example in a config.py file and do not upload it to our public repository. Our config.py file may look like this initially but we keep adding variables as we go:
