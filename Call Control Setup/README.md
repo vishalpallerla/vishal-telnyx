@@ -3,7 +3,7 @@
 
 ## _Make an Outbound Call from Call Control to Your Cellphone_
 
-![Telnyx](Images/logo-dark.png)
+![Telnyx](img/logo-dark.png)
 </div>
 
 Tutorial demonstrating Telnyx Call Control API
@@ -20,7 +20,7 @@ Tutorial demonstrating Telnyx Call Control API
 - [Hookbin](https://hookbin.com/) for creating unique endpoints to inspect HTTP requests.
 We will use this to inspect what's going on in realtime with our API calls.
 
-## Environment Setup
+> `Note:` If you are more of a visual person, please watch the demonstration [here](https://www.loom.com/share/02978440734d4f4192c98eaf081a0a01)`
 
 ### Telnyx Portal Setup
 > Our beloved Telnyx Developer Relations team did an amazing job creating awesome documentation to get started with telnyx making it easy for developers get the taste of Telnyx.
@@ -42,7 +42,7 @@ Just follow the [steps here](https://developers.telnyx.com/docs/v2/call-control/
 As we are looking to place an outbound call, let's head to the relevant API documentation for doing that [Developer Docs API V2 -> Call Cantrol -> Call Commands -> Dial](https://developers.telnyx.com/docs/api/v2/call-control/Call-Commands#callDial)
 
 Based on the documentation, we need three things for making an outbound call as highlighted below:
-![Outbound Dial Parameters](Images/callControlDial.png)
+![Outbound Dial Parameters](img/callControlDial.png)
 
 So, let's grab those details:
 1. *connection_id* : available under app info beside app name in [Mission Control Portal -> Call Control](https://portal.telnyx.com/#/app/call-control/applications) 
@@ -54,7 +54,7 @@ In Postman, Add a new request
 ```
 Collection Name -> Add Request
 ```
-![Postman](Images/postmanAddRequest.png)
+![Postman](img/postmanAddRequest.png)
 
 This opens a New Project window
 - provide desired name, type of request(POST) with the [API URL] (https://api.telnyx.com/v2/calls) and add the following JSON data:
@@ -70,7 +70,7 @@ This opens a New Project window
 }
 ```
 
-![Dial Request Call](Images/dialRequestDetails.png)
+![Dial Request Call](img/dialRequestDetails.png)
 
 Replace the to_number, from_number and connection_id with the values we acquired before. 
 
@@ -82,7 +82,7 @@ Replace the to_number, from_number and connection_id with the values we acquired
     (Example: https://hookbin.com/{your-unique-id})
 - You should see the request details with the respective event_type and other details. 
 
-![](Images/callInitiated.png)
+![Call Initiated Hookbin](img/callInitiated.png)
 
 If you refresh the hookbin URL after each event occurence such as call Dial, call answered and call ended, you should be able to see all those events over there respectively in the ordeer of occurence. 
 
